@@ -35,7 +35,7 @@ while True:
             else:
                 enemyFactoryId = entity_id
 
-    # Any valid action, such as "WAIT" or "MOVE source destination cyborgs"
+    # Ability to make muliti moves per turn()how to write??"
     if myFactoryId != -1 and enemyFactoryId != -1:
         print("MOVE", myFactoryId, "", enemyFactoryId, "",troops)
     else:
